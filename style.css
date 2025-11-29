@@ -41,7 +41,7 @@
     box-shadow: 3px 3px 10px 0px rgb(0 0 0 / 5%), 0 6px 20px 0 rgb(0 0 0 / 5%);
     gap: 1.5rem;
     min-height: 140px;
-    padding: 1.5rem 0;
+    padding: 1.5rem;
 }
 
 /*index*/
@@ -1352,4 +1352,5 @@ body:not(.dark-theme) footer a {
     75% { transform: translateX(-4px); }
     100% { transform: translateX(0); }
 }
+
 

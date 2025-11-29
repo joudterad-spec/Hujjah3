@@ -1,50 +1,86 @@
-body{
-    background-color: #f5f5f7;
-    margin: 0;
-    width: 100%;
-    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
-}
-
-*{
-    text-align: right;
-}
-
-a {
-    color:#F8F8F8;
-    text-decoration: none;
-}
-.container a{
-    color: #032615;
-}
-.container .card p a{
-    font-size:larger;
-}
-.currnt{
-    font-weight: bold;
-}
-.breadcrumb-nav a{
- color: #032615;
-}
-
-.breadcrumb-nav{
-    margin: 1em;
-}
-.breadcrumb-nav span{
-    color: #032615;
-    font-weight: bold;
-}
-
-.top-announcement-bar{
+/*index*/
+.top-announcement-bar{ 
     background-color: #032615;
     text-align: center;
     padding: .5rem .75rem;
     font-size: 1em;
 }
 
-.top-announcement-bar p{
+.top-announcement-bar p{ 
     color: #fff;
     text-align: center;
 }
+
+.main-header { 
+    width: 100%; /*-------------------------------------*/
+}
+
+#theme-toggle {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 8px 15px;
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#theme-toggle:hover {
+    background-color: var(--primary-light);
+}
+
+.main-nav-bar{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    margin: 0 auto;
+    box-shadow: 3px 3px 10px 0px rgb(0 0 0 / 5%), 0 6px 20px 0 rgb(0 0 0 / 5%);
+    gap: 1.5rem;
+    min-height: 140px;
+    padding: 1.5rem 0;
+}
+
+/*index*/
+
+body{
+    background-color: #f5f5f7;
+    margin: 0;
+    width: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}    
+
+*{
+    text-align: right;
+}    
+
+a {
+    color:#F8F8F8;
+    text-decoration: none;
+}    
+.container a{
+    color: #032615;
+}    
+.container .card p a{
+    font-size:larger;
+}    
+.currnt{
+    font-weight: bold;
+}    
+.breadcrumb-nav a{
+ color: #032615;   
+} 
+
+.breadcrumb-nav{
+    margin: 1em;
+}    
+.breadcrumb-nav span{
+    color: #032615;
+    font-weight: bold;
+}    
 
 header{
     text-align: right;
@@ -54,13 +90,9 @@ header{
 }
 
 .header-logo-box img{
-    width: 135px;
-}
-
-.main-nav-bar{
-    display: flex;
-    background-color: #fff;
-    box-shadow: 3px 3px 10px 0px rgb(0 0 0 / 5%), 0 6px 20px 0 rgb(0 0 0 / 5%);
+    width: 135px; 
+    height: auto; 
+    max-width: 100%; 
 }
 
 .main-nav{
@@ -893,28 +925,7 @@ img {
   height: auto;
   display: block;
 }
- 
-.main-header {
-  width: 100%;
-}
 
- 
-.main-nav-bar {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0.5rem 1.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1.5rem;
-}
-
-/* شعار هُجّة */
-.header-logo-box img {
-  max-height: 70px;
-}
-
-/* قائمة الروابط */
 .main-nav ul {
   list-style: none;
   margin: 0;
@@ -1177,24 +1188,6 @@ footer {
   background-color: var(--footer-bg);
 }
 
- 
-#theme-toggle {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  padding: 8px 15px;
-  background-color: var(--primary);
-  color: white;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 15px;
-  font-weight: bold;
-}
-
-#theme-toggle:hover {
-  background-color: var(--primary-light);
-}
 /*Back to top button*/
  
 #backToTop {
